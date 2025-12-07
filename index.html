@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Message For You</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-section" id="inputSection">
+            <h1>✉️ You Have a Message</h1>
+            <p class="subtitle">Please enter your name to unlock it</p>
+            <input type="text" id="nameInput" placeholder="Enter your name..." autocomplete="off">
+            <button onclick="checkName()">Open Message</button>
+            <p class="error" id="errorMsg"></p>
+        </div>
+
+        <div class="envelope-wrapper" id="envelopeWrapper">
+            <div class="envelope" id="envelope" onclick="openEnvelope()">
+                <div class="envelope-back"></div>
+                <div class="envelope-letter">💌</div>
+                <div class="envelope-flap"></div>
+            </div>
+            <p class="click-text">Click mo("+")</p>
+        </div>
+
+        <div class="letter" id="letter">
+            <h2>Hi Eli</h2>
+            <div class="hearts">🤎</div>
+            <p>
+                I want to be honest and clear this time. I really like you, and I'm serious about wanting to be with you. I'm ready to put in the effort and be consistent because you truly matter to me.
+            </p>
+            <p>
+                I also want you to know that you can always be honest with me. If you don't feel the same way, that's completely okay. Ang important sakin is that we're both open and truthful with each other.
+            </p>
+            <p>
+                No matter how you feel, I'm always here to listen and respect your answer. I just want you to know kung ano talaga ung nararamdaman ko. And no pressure, you don't need to answer this right now.
+            </p>
+            <p>
+                I hope this brings a smile to your face, because that's all I ever want to do. 
+            </p>
+            
+            <p>Can I have a chance to pursue you?</p>
+            <div class="hearts">🤎</div>
+            <video id="giftVideo" controls loop autoplay muted>
+                <source src="gift.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
