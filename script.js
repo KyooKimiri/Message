@@ -20,7 +20,7 @@ function checkName() {
         return;
     }
     
-    if (name === 'eli') {
+    if (name === 'Elizabeth') {
         errorMsg.textContent = '';
         inputSection.style.display = 'none';
         envelopeWrapper.classList.add('show');
